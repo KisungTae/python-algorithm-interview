@@ -1,5 +1,8 @@
 package com.company.stringmanipulation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ReverseString {
     public void reverseString(char[] s) {
         int lastIndex = s.length - 1;
