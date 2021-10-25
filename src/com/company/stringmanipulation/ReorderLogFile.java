@@ -56,8 +56,8 @@ public class ReorderLogFile {
     private boolean isDigitLog(String log) {
         int startIndex = log.indexOf(' ');
         if (startIndex == -1) return false;
-
         startIndex++;
+        if (startIndex >= log.length()) return false;
         char firstChar = log.charAt(startIndex);
         return Character.isDigit(firstChar);
     }

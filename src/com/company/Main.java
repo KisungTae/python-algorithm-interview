@@ -1,12 +1,12 @@
 package com.company;
 
-import com.company.stringmanipulation.ReorderLogFile;
-import com.company.stringmanipulation.ValidPalindrome;
+import com.company.stringmanipulation.MostCommonWord_R;
 
 public class Main {
 
     public static void main(String[] args) {
-	    new ReorderLogFile();
+	    new MostCommonWord_R();
+
 
     }
 }
