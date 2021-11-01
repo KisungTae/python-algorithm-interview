@@ -5,7 +5,32 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSum_R {
+
+// your first solution was correct but different from the answer from the book, re-do it!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> indices = new HashMap<>();
 
