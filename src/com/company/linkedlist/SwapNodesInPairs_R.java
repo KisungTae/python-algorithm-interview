@@ -5,22 +5,6 @@ public class SwapNodesInPairs_R {
     // your solution is right but the solution from the book does not have if statement in while,
     // review the solution from the book and re-do
 
-    public class ListNode {
-        int                        val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
 
 

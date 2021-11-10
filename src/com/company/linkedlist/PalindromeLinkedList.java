@@ -5,23 +5,6 @@ import java.util.Stack;
 
 public class PalindromeLinkedList {
 
-    public class ListNode {
-        int      val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public boolean isPalindrome(ListNode head) {
         ListNode tail = head;
         Stack<Integer> stack = new Stack<>();
