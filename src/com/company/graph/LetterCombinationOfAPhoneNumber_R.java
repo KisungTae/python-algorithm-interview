@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class LetterCombinationOfAPhoneNumber_R {
 
-    // your solution was right but only faster than 10% java solution, review and redo it.
+    // your solution was right but only faster than 10% java solution, review and rex`do it.
 
     public List<String> letterCombinations(String digits) {
         Map<Character, Character[]> letterMap = getLetterMap();
